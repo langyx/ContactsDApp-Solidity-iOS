@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "Contacts.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

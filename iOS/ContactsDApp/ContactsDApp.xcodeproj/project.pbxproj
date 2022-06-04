@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2810F42832D82D0005F878 /* KeyStore+MainAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2810F32832D82D0005F878 /* KeyStore+MainAddress.swift */; };
+		5F2810F72832DAC70005F878 /* Web3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F2810F62832DAC70005F878 /* Web3.plist */; };
+		5F2810FA2833924E0005F878 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2810F92833924E0005F878 /* ContactsView.swift */; };
+		5F2810FC2833929D0005F878 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2810FB2833929D0005F878 /* ContactsViewModel.swift */; };
+		5F2810FE2833932A0005F878 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2810FD2833932A0005F878 /* Contact.swift */; };
+		5F281100283395180005F878 /* BigUInt+Eth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2810FF283395180005F878 /* BigUInt+Eth.swift */; };
+		5FBD80AD28323865003A93BF /* ContactsDAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80AC28323865003A93BF /* ContactsDAppApp.swift */; };
+		5FBD80AF28323865003A93BF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80AE28323865003A93BF /* MainView.swift */; };
+		5FBD80B128323867003A93BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD80B028323867003A93BF /* Assets.xcassets */; };
+		5FBD80B428323867003A93BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD80B328323867003A93BF /* Preview Assets.xcassets */; };
+		5FBD80C928326F2D003A93BF /* ContactsDAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80C828326F2D003A93BF /* ContactsDAppTests.swift */; };
+		5FBD80D128326F64003A93BF /* YLKSecurity in Frameworks */ = {isa = PBXBuildFile; productRef = 5FBD80D028326F64003A93BF /* YLKSecurity */; };
+		5FBD80D328326FFC003A93BF /* YLKSecurity in Frameworks */ = {isa = PBXBuildFile; productRef = 5FBD80D228326FFC003A93BF /* YLKSecurity */; };
+		5FBD80D6283273F1003A93BF /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = 5FBD80D5283273F1003A93BF /* web3swift */; };
+		5FBD80D928327646003A93BF /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80D828327646003A93BF /* WalletView.swift */; };
+		5FBD80DD283276BD003A93BF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80DC283276BD003A93BF /* UserManager.swift */; };
+		5FBD80E028327854003A93BF /* Web3+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80DF28327854003A93BF /* Web3+Contract.swift */; };
+		5FBD80E228327A49003A93BF /* WalletViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD80E128327A49003A93BF /* WalletViewViewModel.swift */; };
+		5FF73B1128353755006400B2 /* UserPendingCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF73B1028353755006400B2 /* UserPendingCallView.swift */; };
+		5FF73B17283662AE006400B2 /* UserManager+Web3Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF73B16283662AE006400B2 /* UserManager+Web3Config.swift */; };
+		5FF73B19283663EB006400B2 /* UserManager+PendingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF73B18283663EB006400B2 /* UserManager+PendingCall.swift */; };
+		5FF73B1B283668BE006400B2 /* ContactsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF73B1A283668BE006400B2 /* ContactsRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FBD80CA28326F2D003A93BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FBD80A128323865003A93BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FBD80A828323865003A93BF;
+			remoteInfo = ContactsDApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F2810F32832D82D0005F878 /* KeyStore+MainAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyStore+MainAddress.swift"; sourceTree = "<group>"; };
+		5F2810F62832DAC70005F878 /* Web3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Web3.plist; sourceTree = "<group>"; };
+		5F2810F92833924E0005F878 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		5F2810FB2833929D0005F878 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		5F2810FD2833932A0005F878 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5F2810FF283395180005F878 /* BigUInt+Eth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BigUInt+Eth.swift"; sourceTree = "<group>"; };
+		5FBD80A928323865003A93BF /* ContactsDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBD80AC28323865003A93BF /* ContactsDAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDAppApp.swift; sourceTree = "<group>"; };
+		5FBD80AE28323865003A93BF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5FBD80B028323867003A93BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FBD80B328323867003A93BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FBD80BC283238BA003A93BF /* YLKSecurity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = YLKSecurity; path = ../YLKSecurity; sourceTree = "<group>"; };
+		5FBD80BD2832590B003A93BF /* ContactsDApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContactsDApp.entitlements; sourceTree = "<group>"; };
+		5FBD80C628326F2D003A93BF /* ContactsDAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsDAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBD80C828326F2D003A93BF /* ContactsDAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDAppTests.swift; sourceTree = "<group>"; };
+		5FBD80D828327646003A93BF /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		5FBD80DC283276BD003A93BF /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		5FBD80DF28327854003A93BF /* Web3+Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Web3+Contract.swift"; sourceTree = "<group>"; };
+		5FBD80E128327A49003A93BF /* WalletViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewViewModel.swift; sourceTree = "<group>"; };
+		5FF73B1028353755006400B2 /* UserPendingCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPendingCallView.swift; sourceTree = "<group>"; };
+		5FF73B16283662AE006400B2 /* UserManager+Web3Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserManager+Web3Config.swift"; sourceTree = "<group>"; };
+		5FF73B18283663EB006400B2 /* UserManager+PendingCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserManager+PendingCall.swift"; sourceTree = "<group>"; };
+		5FF73B1A283668BE006400B2 /* ContactsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBD80A628323865003A93BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBD80D328326FFC003A93BF /* YLKSecurity in Frameworks */,
+				5FBD80D6283273F1003A93BF /* web3swift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBD80C328326F2D003A93BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBD80D128326F64003A93BF /* YLKSecurity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2810F52832DAA40005F878 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5F2810F62832DAC70005F878 /* Web3.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5F2810F8283391470005F878 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				5F2810F92833924E0005F878 /* ContactsView.swift */,
+				5FF73B1A283668BE006400B2 /* ContactsRowView.swift */,
+				5F2810FB2833929D0005F878 /* ContactsViewModel.swift */,
+				5F2810FD2833932A0005F878 /* Contact.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		5FBD80A028323865003A93BF = {
+			isa = PBXGroup;
+			children = (
+				5FBD80BC283238BA003A93BF /* YLKSecurity */,
+				5FBD80AB28323865003A93BF /* ContactsDApp */,
+				5FBD80C728326F2D003A93BF /* ContactsDAppTests */,
+				5FBD80AA28323865003A93BF /* Products */,
+				5FBD80CF28326F64003A93BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FBD80AA28323865003A93BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD80A928323865003A93BF /* ContactsDApp.app */,
+				5FBD80C628326F2D003A93BF /* ContactsDAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FBD80AB28323865003A93BF /* ContactsDApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F2810F52832DAA40005F878 /* Config */,
+				5FBD80DE283277B5003A93BF /* web3 */,
+				5FBD80DB2832769E003A93BF /* User */,
+				5F2810F8283391470005F878 /* Contacts */,
+				5FBD80D728327529003A93BF /* Wallet */,
+				5FBD80AE28323865003A93BF /* MainView.swift */,
+				5FBD80AC28323865003A93BF /* ContactsDAppApp.swift */,
+				5FBD80BD2832590B003A93BF /* ContactsDApp.entitlements */,
+				5FBD80B028323867003A93BF /* Assets.xcassets */,
+				5FBD80B228323867003A93BF /* Preview Content */,
+			);
+			path = ContactsDApp;
+			sourceTree = "<group>";
+		};
+		5FBD80B228323867003A93BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD80B328323867003A93BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FBD80C728326F2D003A93BF /* ContactsDAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD80C828326F2D003A93BF /* ContactsDAppTests.swift */,
+			);
+			path = ContactsDAppTests;
+			sourceTree = "<group>";
+		};
+		5FBD80CF28326F64003A93BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FBD80D728327529003A93BF /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD80D828327646003A93BF /* WalletView.swift */,
+				5FBD80E128327A49003A93BF /* WalletViewViewModel.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		5FBD80DB2832769E003A93BF /* User */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD80DC283276BD003A93BF /* UserManager.swift */,
+				5FF73B16283662AE006400B2 /* UserManager+Web3Config.swift */,
+				5FF73B18283663EB006400B2 /* UserManager+PendingCall.swift */,
+				5FF73B1028353755006400B2 /* UserPendingCallView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		5FBD80DE283277B5003A93BF /* web3 */ = {
+			isa = PBXGroup;
+			children = (
+				5FBD80DF28327854003A93BF /* Web3+Contract.swift */,
+				5F2810F32832D82D0005F878 /* KeyStore+MainAddress.swift */,
+				5F2810FF283395180005F878 /* BigUInt+Eth.swift */,
+			);
+			path = web3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBD80A828323865003A93BF /* ContactsDApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBD80B728323867003A93BF /* Build configuration list for PBXNativeTarget "ContactsDApp" */;
+			buildPhases = (
+				5FBD80A528323865003A93BF /* Sources */,
+				5FBD80A628323865003A93BF /* Frameworks */,
+				5FBD80A728323865003A93BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactsDApp;
+			packageProductDependencies = (
+				5FBD80D228326FFC003A93BF /* YLKSecurity */,
+				5FBD80D5283273F1003A93BF /* web3swift */,
+			);
+			productName = ContactsDApp;
+			productReference = 5FBD80A928323865003A93BF /* ContactsDApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FBD80C528326F2D003A93BF /* ContactsDAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBD80CC28326F2D003A93BF /* Build configuration list for PBXNativeTarget "ContactsDAppTests" */;
+			buildPhases = (
+				5FBD80C228326F2D003A93BF /* Sources */,
+				5FBD80C328326F2D003A93BF /* Frameworks */,
+				5FBD80C428326F2D003A93BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FBD80CB28326F2D003A93BF /* PBXTargetDependency */,
+			);
+			name = ContactsDAppTests;
+			packageProductDependencies = (
+				5FBD80D028326F64003A93BF /* YLKSecurity */,
+			);
+			productName = ContactsDAppTests;
+			productReference = 5FBD80C628326F2D003A93BF /* ContactsDAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FBD80A128323865003A93BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5FBD80A828323865003A93BF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5FBD80C528326F2D003A93BF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5FBD80A828323865003A93BF;
+					};
+				};
+			};
+			buildConfigurationList = 5FBD80A428323865003A93BF /* Build configuration list for PBXProject "ContactsDApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FBD80A028323865003A93BF;
+			packageReferences = (
+				5FBD80D4283273F1003A93BF /* XCRemoteSwiftPackageReference "web3swift" */,
+			);
+			productRefGroup = 5FBD80AA28323865003A93BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBD80A828323865003A93BF /* ContactsDApp */,
+				5FBD80C528326F2D003A93BF /* ContactsDAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FBD80A728323865003A93BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBD80B428323867003A93BF /* Preview Assets.xcassets in Resources */,
+				5F2810F72832DAC70005F878 /* Web3.plist in Resources */,
+				5FBD80B128323867003A93BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBD80C428326F2D003A93BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FBD80A528323865003A93BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBD80AF28323865003A93BF /* MainView.swift in Sources */,
+				5F2810F42832D82D0005F878 /* KeyStore+MainAddress.swift in Sources */,
+				5F2810FE2833932A0005F878 /* Contact.swift in Sources */,
+				5F281100283395180005F878 /* BigUInt+Eth.swift in Sources */,
+				5FF73B19283663EB006400B2 /* UserManager+PendingCall.swift in Sources */,
+				5FF73B17283662AE006400B2 /* UserManager+Web3Config.swift in Sources */,
+				5FBD80AD28323865003A93BF /* ContactsDAppApp.swift in Sources */,
+				5FF73B1B283668BE006400B2 /* ContactsRowView.swift in Sources */,
+				5FBD80E228327A49003A93BF /* WalletViewViewModel.swift in Sources */,
+				5FBD80E028327854003A93BF /* Web3+Contract.swift in Sources */,
+				5FBD80DD283276BD003A93BF /* UserManager.swift in Sources */,
+				5FBD80D928327646003A93BF /* WalletView.swift in Sources */,
+				5F2810FC2833929D0005F878 /* ContactsViewModel.swift in Sources */,
+				5FF73B1128353755006400B2 /* UserPendingCallView.swift in Sources */,
+				5F2810FA2833924E0005F878 /* ContactsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBD80C228326F2D003A93BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBD80C928326F2D003A93BF /* ContactsDAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FBD80CB28326F2D003A93BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FBD80A828323865003A93BF /* ContactsDApp */;
+			targetProxy = 5FBD80CA28326F2D003A93BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FBD80B528323867003A93BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FBD80B628323867003A93BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FBD80B828323867003A93BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContactsDApp/ContactsDApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactsDApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AT6WLZZ672;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannislang.ContactsDApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FBD80B928323867003A93BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContactsDApp/ContactsDApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactsDApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AT6WLZZ672;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannislang.ContactsDApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FBD80CD28326F2D003A93BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannislang.ContactsDAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsDApp.app/ContactsDApp";
+			};
+			name = Debug;
+		};
+		5FBD80CE28326F2D003A93BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannislang.ContactsDAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsDApp.app/ContactsDApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FBD80A428323865003A93BF /* Build configuration list for PBXProject "ContactsDApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBD80B528323867003A93BF /* Debug */,
+				5FBD80B628323867003A93BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBD80B728323867003A93BF /* Build configuration list for PBXNativeTarget "ContactsDApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBD80B828323867003A93BF /* Debug */,
+				5FBD80B928323867003A93BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBD80CC28326F2D003A93BF /* Build configuration list for PBXNativeTarget "ContactsDAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBD80CD28326F2D003A93BF /* Debug */,
+				5FBD80CE28326F2D003A93BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FBD80D4283273F1003A93BF /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/skywinder/web3swift";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FBD80D028326F64003A93BF /* YLKSecurity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YLKSecurity;
+		};
+		5FBD80D228326FFC003A93BF /* YLKSecurity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YLKSecurity;
+		};
+		5FBD80D5283273F1003A93BF /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FBD80D4283273F1003A93BF /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5FBD80A128323865003A93BF /* Project object */;
+}

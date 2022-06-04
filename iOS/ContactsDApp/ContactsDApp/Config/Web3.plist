@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>provider</key>
+	<string>http://127.0.0.1:7545</string>
+	<key>contractAddress</key>
+	<string>0xB4377216B0d556FFe0F7a7d0905dFf52b7B40A8e</string>
+	<key>contractName</key>
+	<string>Contacts</string>
+</dict>
+</plist>
