@@ -59,9 +59,9 @@ extension UserManager {
               let keyStore = try EthereumKeystoreV3(privateKey: dataKey)else {
                   throw(KeyStoreError.badKey)
               }
-//        await MainActor.run {
-//            keystoreManager = KeystoreManager([keyStore])
-//        }
+        await MainActor.run {
+            keystoreManager = KeystoreManager([keyStore])
+        }
     }
 }
 
